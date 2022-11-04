@@ -85,7 +85,7 @@ int main(){
 
     std::vector<fcl::Vector3d> posVec;
     std::vector<fcl::Vector3<int>> triVec;
-    loadOBJFile("/home/ubuntu/fcl/my/hanger2.obj", posVec, triVec);
+    loadOBJFile("/home/ubuntu/fcl/my/hanger3.obj", posVec, triVec);
     while(true){
         int i;
         std::cin>>i;
