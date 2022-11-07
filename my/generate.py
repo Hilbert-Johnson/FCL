@@ -1,8 +1,8 @@
-center = [0,0,0]
+center = [0,25,0]
 scale = 0.14
 
 def write_v(f, v):
-    f.write("v {:.5f} {:.5f} {:.5f}\n".format(v[0]*scale+center[0], v[1]*scale+center[1], v[2]*scale+center[2]))
+    f.write("v {:.5f} {:.5f} {:.5f}\n".format(v[0]*scale+center[0], -v[2]*scale+center[1], v[1]*scale+center[2]))
 
 def write_t(f, t):
     f.write("f "+str(t[0])+" "+str(t[2])+" "+str(t[1])+"\n")
